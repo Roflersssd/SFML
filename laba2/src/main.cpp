@@ -1,5 +1,5 @@
 ﻿#include <SFML/Graphics.hpp>
-#include "Cube/Cube.h"
+#include "CubeClass/Cube.h"
 
 #include <cmath>
 
