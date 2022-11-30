@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 3.22)
 project(laba2)
 
 set(CMAKE_CXX_STANDARD 17)
-file(GLOB CPP_SOURCES "src/main.cpp" "src/Cube/Cube.cpp")
+file(GLOB CPP_SOURCES "src/main.cpp" "src/CubeClass/Cube.cpp")
 
-include_directories("src/Cube/Cube.h")
+include_directories("src/CubeClass/Cube.h")
 
 add_executable(${PROJECT_NAME} ${CPP_SOURCES})
 
